@@ -5,7 +5,7 @@ import org.openqa.selenium.WebDriver;
 
 public class LoginPage extends Page{
 
-    public final static String LOGIN_PAGE_URL = "https://stellarburgers.nomoreparties.site/login";
+    public final static String LOGIN_PAGE_URL = BASE_URL + "/login";
     //Надпись "Вход"
     public final static By LOGIN_HEADER = By.xpath("//h2[text()='Вход']");
     //Поле "Email"

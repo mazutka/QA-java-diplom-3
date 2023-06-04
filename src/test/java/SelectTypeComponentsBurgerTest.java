@@ -46,7 +46,7 @@ public class SelectTypeComponentsBurgerTest {
     @DisplayName("Выбор вида компонентов бургера: Булки, Соусы, Начинки")
     public void selectTypeComponentsBurgerTest() throws InterruptedException {
         MainPage page = new MainPage(driver);
-        page.openPage(MAIN_PAGE_URL);
+        page.openPage(BASE_URL);
         if (locatorTypeComponents.equals(BUNS)) page.findAndClickElementWithWaitingAfter(SAUCES);
         page.findAndClickElementWithWaitingAfter(locatorTypeComponents);
         //Получить координату меню выделенного элемента

@@ -8,6 +8,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class Page {
     public WebDriver driver;
+    public final static String BASE_URL = "https://stellarburgers.nomoreparties.site";
 
     public Page(WebDriver driver) {
         this.driver = driver;

@@ -5,7 +5,7 @@ import org.openqa.selenium.WebDriver;
 
 public class RegistrationPage extends Page{
 
-    public final static String REGISTRATION_PAGE_URL = "https://stellarburgers.nomoreparties.site/register";
+    public final static String REGISTRATION_PAGE_URL = BASE_URL + "/register";
     //Поле "Имя"
     public final static By FIELD_NAME = By.xpath("//label[text()='Имя']//following::input[1]");
     //Поле "Email"

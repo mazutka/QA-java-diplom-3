@@ -5,7 +5,6 @@ import org.openqa.selenium.WebDriver;
 
 public class MainPage extends Page{
 
-    public final static String MAIN_PAGE_URL = "https://stellarburgers.nomoreparties.site";
     //Надпись "Соберите бургер"
     public final static By SET_BURGER_HEADER = By.xpath("//h1[text()='Соберите бургер']");
     //Кнопка "Войти в аккаунт"

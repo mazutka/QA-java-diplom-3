@@ -32,8 +32,8 @@ public class UserLoginTest {
     @Parameterized.Parameters(name = "{index}: Страница - {0}, элемент - {1}")
     public static Object[][] orderData() {
         return new Object[][]{
-                {MAIN_PAGE_URL, SIGN_IN_ACCOUNT_BUTTON},
-                {MAIN_PAGE_URL, PROFILE_LINK},
+                {BASE_URL, SIGN_IN_ACCOUNT_BUTTON},
+                {BASE_URL, PROFILE_LINK},
                 {FORGOT_PASSWORD_PAGE_URL, SIGN_IN_LINK},
                 {REGISTRATION_PAGE_URL, REGISTRATION_SIGN_IN_LINK}
         };
